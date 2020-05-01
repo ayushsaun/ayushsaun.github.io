@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="swag.css">
+    <title>Pipboy</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="pipboy.html">STAT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="inv.html">INV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#weapon" role="tab" aria-controls="home" aria-selected="true">
+                            WEAPON
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#armor" role="tab" aria-controls="home" aria-selected="true">
+                            ARMOR
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#aid" role="tab" aria-controls="home" aria-selected="true">
+                            AID
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane full" id="weapon" role="tabpanel">
+                        <ul class="item-list">
+                            <li><a href="#" class="44_pistol">.44 Pistol</a></li>
+                            <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+                            <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
+                        </ul>
+
+                        <div class="item-stats">
+
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="damage pull-right">48</div>
+                                    <div class="pull-left">Damage</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="ammo pull-right">20</div>
+                                    <div class="pull-left">Ammo</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="fire_rate pull-right">6</div>
+                                    <div class="pull-left">Fire-rate</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="range pull-right">119</div>
+                                    <div class="pull-left">Range</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="accuracy pull-right">66</div>
+                                    <div class="pull-left">Accuracy</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="rate pull-right">4.2</div>
+                                    <div class="pull-left">Rate</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="value pull-right">99</div>
+                                    <div class="pull-left">Value</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="tab-pane" id="armor" role="tabpanel">
+                        Special
+                    </div>
+                    <div class="tab-pane" id="aid" role="tabpanel">
+                        Perks
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<footer>
+    <div class="row">
+        <div class="col-3 foot">
+            HP 90/90
+        </div>
+        <div class="col-6 foot footer">
+            <span>LEVEL 1</span>
+            <div class="level-progress">
+                <div class="level-progress-indicator"></div>
+            </div>
+        </div>
+        <div class="col-3 foot text-right" >
+            AP 50/50
+        </div>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

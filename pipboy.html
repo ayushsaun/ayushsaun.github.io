@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="swag.css">
+    <title>Pipboy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav nav-fill">
+            <li class="nav-item active">
+              <a class="nav-link" href="pipboy.html">STAT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inv.html">INV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DATA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MAP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RADIO</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#status" role="tab" aria-controls="home" aria-selected="true">
+                    STATUS
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#special" role="tab" aria-controls="home" aria-selected="true">
+                    SPECIAL
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#perks" role="tab" aria-controls="home" aria-selected="true">
+                    PERKS
+                  </a>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane active" id="status" role="tabpanel">
+                  Status
+                </div>
+                <div class="tab-pane" id="special" role="tabpanel">
+                  Special
+                </div>
+                <div class="tab-pane" id="perks" role="tabpanel">
+                  Perks
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <img src="pipboy.png" class="image1">
+
+    <div class="container stat-bar-container">
+
+      <div class="row contain">
+        <div class="col-12">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w10"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row contain">
+        <div class="col-3">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6"></div>
+        <div class="col-3">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w50"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row contain">
+        <div class="col-3">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6"></div>
+        <div class="col-3">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w90"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row contain">
+        <div class="col-12">
+          <div class="stat-bar">
+            <div class="level-progress">
+              <div class="level-progress-indicator w40"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row stat-numbers">
+        <div class="col-2 transparency"></div>
+        <div class="col-2"><img src="gun.png" class="img"> </div>
+        <div class="col-1">
+          <div class="icon"><img src="crosshair.png" class="img-small"></div>
+          <div class="points">18</div>
+        </div>
+        <div class="col-1 transparency"></div>
+
+
+        <div class="col-2"><img src="helmet.png" class="img"></div>
+        <div class="col-1">
+          <div class="icon"><img src="electric.png" class="img-small"></div>
+          <div class="points">18</div>
+        </div>
+
+        <div class="col-1">
+          <div class="icon"><img src="radiation.png" class="img-small"></div>
+          <div class="points">18</div>
+        </div>
+
+        <div class="col-2 transparency"></div>
+
+      </div>
+
+    </div>
+
+
+    <footer>
+      <div class="row">
+        <div class="col-3 foot">
+          HP 90/90
+        </div>
+        <div class="col-6 foot footer">
+          <span>LEVEL 1</span>
+          <div class="level-progress">
+            <div class="level-progress-indicator"></div>
+          </div>
+        </div>
+        <div class="col-3 foot text-right" >
+          AP 50/50
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
